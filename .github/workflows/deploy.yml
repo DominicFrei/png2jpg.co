@@ -31,7 +31,7 @@ jobs:
         run: npm run check
 
       - name: Install Playwright browsers
-        run: npx playwright install --with-deps
+        run: npx playwright install chromium --with-deps
 
       - name: Run unit tests
         run: npm run test:unit -- --run
