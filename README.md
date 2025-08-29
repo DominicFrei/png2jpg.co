@@ -22,13 +22,14 @@ A fast, free, and secure browser-based image format converter supporting multipl
 What started as a simple PNG to JPG converter has evolved into a comprehensive image format conversion tool. The focus is on:
 
 - **Privacy**: All processing happens client-side
-- **Speed**: Instant conversions without server round-trips  
+- **Speed**: Instant conversions without server round-trips
 - **Simplicity**: Clean, intuitive interface
 - **Reliability**: Comprehensive testing suite with 28+ tests
 
 ## 🛠️ Tech Stack
 
 ### Frontend
+
 - **[SvelteKit](https://kit.svelte.dev/)** - Full-stack framework
 - **[Svelte](https://svelte.dev/)** - Reactive UI framework with latest runes API
 - **[TypeScript](https://www.typescriptlang.org/)** - Type-safe development
@@ -36,23 +37,27 @@ What started as a simple PNG to JPG converter has evolved into a comprehensive i
 - **[Vite](https://vitejs.dev/)** - Fast build tool
 
 ### Testing
+
 - **[Vitest](https://vitest.dev/)** - Unit testing framework
 - **[Playwright](https://playwright.dev/)** - End-to-end testing
 - **Browser Testing** - Real browser environment testing
 
 ### Development Tools
+
 - **[ESLint](https://eslint.org/)** - Code linting
 - **[Prettier](https://prettier.io/)** - Code formatting
 - **[svelte-check](https://github.com/sveltejs/language-tools)** - TypeScript validation
 
 ### Deployment
+
 - **[GitHub Actions](https://github.com/features/actions)** - CI/CD pipeline
 - **[Firebase Hosting](https://firebase.google.com/products/hosting)** - Fast, secure hosting
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js 18+ 
+
+- Node.js 18+
 - npm or yarn
 
 ### Installation
@@ -82,7 +87,7 @@ npm test
 # Run only unit tests
 npm run test:unit
 
-# Run only e2e tests  
+# Run only e2e tests
 npm run test:e2e
 
 # Run unit tests in watch mode (development)
@@ -90,6 +95,7 @@ npm run test:unit -- --watch
 ```
 
 ### Test Coverage
+
 - **Unit Tests**: Core conversion logic, file handling, utilities
 - **Browser Tests**: Real browser image conversion with Canvas API
 - **E2E Tests**: Complete user workflows, drag & drop, error handling
@@ -131,6 +137,7 @@ tests/
 ### Code Quality
 
 The project maintains high code quality through:
+
 - **TypeScript** for type safety
 - **ESLint** for code quality
 - **Prettier** for consistent formatting
@@ -158,11 +165,14 @@ firebase deploy
 ## 🔧 Configuration
 
 ### Environment Setup
+
 - No environment variables required for basic functionality
 - All image processing happens client-side
 
 ### PWA Configuration
+
 The app includes a web manifest for PWA installation:
+
 - Installable on mobile devices
 - Offline-capable
 - App-like experience
@@ -172,6 +182,7 @@ The app includes a web manifest for PWA installation:
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ### Development Workflow
+
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Make your changes
@@ -182,6 +193,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 8. Open a Pull Request
 
 ### Guidelines
+
 - Follow the existing code style
 - Add tests for new features
 - Update documentation as needed

@@ -7,7 +7,10 @@
       "Bash(npm run format:*)",
       "Bash(firebase target:apply:*)",
       "Bash(npm test)",
-      "Bash(npx playwright test:*)"
+      "Bash(npx playwright test:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ],
     "deny": [],
     "ask": []

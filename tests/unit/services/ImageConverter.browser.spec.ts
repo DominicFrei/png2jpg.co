@@ -24,9 +24,24 @@ describe('ImageConverter (Browser Tests)', () => {
 
 		// Test matrix: 3 input formats × 3 output formats = 9 combinations
 		const testMatrix = [
-			{ filename: 'test_image_png.png', mimeType: 'image/png', format: 'PNG', url: testImagePngUrl },
-			{ filename: 'test_image_jpg.jpg', mimeType: 'image/jpeg', format: 'JPG', url: testImageJpgUrl },
-			{ filename: 'test_image_svg.svg', mimeType: 'image/svg+xml', format: 'SVG', url: testImageSvgUrl }
+			{
+				filename: 'test_image_png.png',
+				mimeType: 'image/png',
+				format: 'PNG',
+				url: testImagePngUrl
+			},
+			{
+				filename: 'test_image_jpg.jpg',
+				mimeType: 'image/jpeg',
+				format: 'JPG',
+				url: testImageJpgUrl
+			},
+			{
+				filename: 'test_image_svg.svg',
+				mimeType: 'image/svg+xml',
+				format: 'SVG',
+				url: testImageSvgUrl
+			}
 		];
 
 		const outputFormats: ImageFormat[] = ['png', 'jpg', 'webp'];
