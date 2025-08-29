@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /cdn-cgi/l/email-protection
+Sitemap: https://png2jpg.co/sitemap.xml

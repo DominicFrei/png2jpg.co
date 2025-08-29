@@ -1,0 +1,22 @@
+{
+	"hosting": {
+		"target": "page",
+		"source": ".",
+		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+		"frameworksBackend": {
+			"region": "us-central1"
+		},
+		"cleanUrls": true,
+		"headers": [
+			{
+				"source": "**",
+				"headers": [
+					{
+						"key": "X-Content-Type-Options",
+						"value": "nosniff"
+					}
+				]
+			}
+		]
+	}
+}

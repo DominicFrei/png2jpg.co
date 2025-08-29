@@ -1,59 +1,29 @@
-# Include your project-specific ignores in this file
-# Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
-# Useful .gitignore templates: https://github.com/github/gitignore
+test-results
 node_modules
-dist
-.cache
 
-#######################################################################
-### https://github.com/GoesToEleven/html-css/blob/master/.gitignore ###
-#######################################################################
+# Output
+.output
+.vercel
+.netlify
+.wrangler
+/.svelte-kit
+/build
 
-# Compiled Object files, Static and Dynamic libs (Shared Objects)
-*.o
-*.a
-*.so
-
-# Folders
-_obj
-_test
-
-# Architecture specific extensions/prefixes
-*.[568vq]
-[568vq].out
-
-*.cgo1.go
-*.cgo2.c
-_cgo_defun.c
-_cgo_gotypes.go
-_cgo_export.*
-
-_testmain.go
-
-*.exe
-*.test
-*.prof
-
-# WebStorm
-*.iml
-
-# Directory-based project format:
-.idea/
-.idea/workspace.xml
-**/.idea/workspace.xml
-
-# mac hidden files
+# OS
 .DS_Store
+Thumbs.db
 
-##other
-#node_modules/
-#bower_components/
-.tmp
-#.sass-cache
-#builds/**/images/*
-#*.ogg
-#*.mp3
-#*.mp4
-#*.png
-#*.jpeg
-*.psd
+# Env
+.env
+.env.*
+!.env.example
+!.env.test
+
+# Vite
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+.idea/
+build.zip
+
+__screenshots__

@@ -1,0 +1,13 @@
+{
+  "name": "Image Converter - PNG, JPG, WebP & More",
+  "short_name": "Image Converter",
+  "description": "Convert images between formats instantly. Support for PNG, JPG, WebP, SVG, GIF, and more. Free online converter with batch processing.",
+  "scope": "/",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#2563eb",
+  "prefer_related_applications": false,
+  "categories": ["photo", "utilities"],
+  "lang": "en"
+}

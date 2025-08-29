@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "png2jpg-co"
+  },
+  "targets": {
+    "png2jpg-co": {
+      "hosting": {
+        "page": [
+          "png2jpg-co"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
