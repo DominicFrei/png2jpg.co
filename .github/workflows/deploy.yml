@@ -30,11 +30,11 @@ jobs:
       - name: Run type checking
         run: npm run check
 
-      - name: Run unit tests
-        run: npm run test:unit -- --run
-
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
+
+      - name: Run unit tests
+        run: npm run test:unit -- --run
 
       - name: Run e2e tests
         run: npm run test:e2e
