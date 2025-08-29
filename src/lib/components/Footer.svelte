@@ -8,7 +8,5 @@
 	<p class="mt-2 text-xs text-gray-400">
 		Privacy-first image conversion. Your files never leave your device.
 	</p>
-    <p class="mt-2 text-xs text-gray-400">
-        v1.0
-    </p>
+	<p class="mt-2 text-xs text-gray-400">v1.0</p>
 </footer>
