@@ -1,8 +1,7 @@
 # 🖼️ Image Converter - png2jpg.co
 
-[![Deploy](https://github.com/yourusername/png2jpg.co/actions/workflows/deploy.yml/badge.svg)](https://github.com/yourusername/png2jpg.co/actions/workflows/deploy.yml)
-
-A fast, free, and secure browser-based image format converter supporting multiple formats including PNG, JPG, WebP, SVG, GIF, and more.
+A fast, free, and secure browser-based image format converter supporting multiple formats including PNG, JPG, WebP, SVG,
+GIF, and more.
 
 **🌐 Live Site: [png2jpg.co](https://png2jpg.co)**
 
@@ -19,7 +18,8 @@ A fast, free, and secure browser-based image format converter supporting multipl
 
 ## 🎯 Why This Project?
 
-What started as a simple PNG to JPG converter has evolved into a comprehensive image format conversion tool. The focus is on:
+What started as a simple PNG to JPG converter has evolved into a comprehensive image format conversion tool. The focus
+is on:
 
 - **Privacy**: All processing happens client-side
 - **Speed**: Instant conversions without server round-trips
