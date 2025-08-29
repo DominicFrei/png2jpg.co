@@ -16,7 +16,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Development Notes
 
-Whenever you finsh a task, please run all code quality checks: format, lint, check, test.
+Whenever you finish a task, please run all code quality checks: format, lint, check, test.
 If any of those contains warnings, errors or failures - even if from unchanged files - please fix them.
 If unclear what to fix (code or test), please ask me. Don't guess. Think hard.
 

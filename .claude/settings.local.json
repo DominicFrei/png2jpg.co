@@ -1,18 +1,18 @@
 {
-  "permissions": {
-    "allow": [
-      "Bash(npm run dev:*)",
-      "Bash(npm run check:*)",
-      "Bash(npm run lint)",
-      "Bash(npm run format:*)",
-      "Bash(firebase target:apply:*)",
-      "Bash(npm test)",
-      "Bash(npx playwright test:*)",
-      "Bash(git add:*)",
-      "Bash(git commit:*)",
-      "Bash(git push:*)"
-    ],
-    "deny": [],
-    "ask": []
-  }
+	"permissions": {
+		"allow": [
+			"Bash(npm run dev:*)",
+			"Bash(npm run check:*)",
+			"Bash(npm run lint)",
+			"Bash(npm run format:*)",
+			"Bash(firebase target:apply:*)",
+			"Bash(npm test)",
+			"Bash(npx playwright test:*)",
+			"Bash(git add:*)",
+			"Bash(git commit:*)",
+			"Bash(git push:*)"
+		],
+		"deny": [],
+		"ask": []
+	}
 }
