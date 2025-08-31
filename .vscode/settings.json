@@ -1,7 +1,4 @@
 {
-	"files.associations": {
-		"wrangler.json": "jsonc"
-	},
 	"editor.disableMonospaceOptimizations": true,
 	"editor.fontLigatures": false,
 	"terminal.integrated.gpuAcceleration": "off",

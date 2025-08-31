@@ -1,5 +1,5 @@
 <script lang="ts">
-	import FeatureCard from '$lib/FeatureCard.svelte';
+	import FeatureCard from '$lib/components/FeatureCard.svelte';
 	import ImageFormatIcon from '$lib/icons/ImageFormatIcon.svelte';
 	import LockIcon from '$lib/icons/LockIcon.svelte';
 	import LightningIcon from '$lib/icons/LightningIcon.svelte';

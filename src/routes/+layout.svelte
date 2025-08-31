@@ -1,8 +1,16 @@
 <script lang="ts">
 	import '../app.css';
 	import favicon from '../lib/assets/favicon.svg';
+	import { analytics } from '$lib/services/firebase';
+	import { onMount } from 'svelte';
 
 	let { children } = $props();
+
+	onMount(() => {
+		if (analytics) {
+			console.log('Firebase Analytics initialized');
+		}
+	});
 </script>
 
 <svelte:head>
