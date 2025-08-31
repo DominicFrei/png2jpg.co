@@ -72,7 +72,7 @@ test.describe('Image Conversion E2E', () => {
 		await expect(page.locator('text=test_image_svg.svg')).toBeVisible();
 
 		// Wait for all conversions to complete
-		await expect(page.locator('[class*="text-xs"]:has-text("Converting")')).not.toBeVisible({
+		await expect(page.locator('.text-xs.text-gray-500:has-text("Converting")')).not.toBeVisible({
 			timeout: 20000
 		});
 
